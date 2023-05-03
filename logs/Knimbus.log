@@ -1,0 +1,111 @@
+19:55:12.215 INFO  com.rng.KnimbusApplication - Starting KnimbusApplication using Java 19.0.1 with PID 11752 (E:\Knimbus\Knimbus\target\classes started by patil in E:\Knimbus\Knimbus)
+19:55:12.224 INFO  com.rng.KnimbusApplication - No active profile set, falling back to 1 default profile: "default"
+19:55:13.872 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+19:55:13.886 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+19:55:13.887 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:55:13.888 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+19:55:14.029 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:55:14.031 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1669 ms
+19:55:14.637 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+19:55:14.664 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+19:55:14.681 INFO  com.rng.KnimbusApplication - Started KnimbusApplication in 2.929 seconds (process running for 4.013)
+19:55:23.461 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:55:23.462 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:55:23.467 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+19:55:23.528 INFO  com.rng.service.impl.ServiceImpl - Fetching train details from https://api-v3.mbta.com/predictions/?filter[direction_id]=0&filter[stop]=place-pktrm&sort=departure_time&include=route&page[limit]=10
+19:55:25.554 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 19:56:21 IST 2023
+19:55:25.554 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.555 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 19:57:03 IST 2023
+19:55:25.555 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.555 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 19:59:10 IST 2023
+19:55:25.556 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.556 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:01:39 IST 2023
+19:55:25.556 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.556 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:03:39 IST 2023
+19:55:25.556 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.557 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:03:39 IST 2023
+19:55:25.557 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.558 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:04:06 IST 2023
+19:55:25.558 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.558 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:09:41 IST 2023
+19:55:25.559 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.559 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:10:16 IST 2023
+19:55:25.559 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@2d3fd1a1, com.rng.model.Included@60e3a93e, com.rng.model.Included@149709cd, com.rng.model.Included@21713bc7, com.rng.model.Included@72905491]
+19:55:25.567 INFO  com.rng.service.impl.ServiceImpl - Schedule details: Wed May 03 19:55:23 IST 2023
+
+-------Green Line E-------
+Heath Street: Departuring now(0 minutes)
+20:07:31.681 INFO  com.rng.KnimbusApplication - Starting KnimbusApplication using Java 19.0.1 with PID 1800 (E:\Knimbus\Knimbus\target\classes started by patil in E:\Knimbus\Knimbus)
+20:07:31.686 INFO  com.rng.KnimbusApplication - No active profile set, falling back to 1 default profile: "default"
+20:07:33.541 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+20:07:33.553 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+20:07:33.554 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:07:33.555 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+20:07:33.663 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:07:33.664 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1880 ms
+20:07:34.255 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+20:07:34.278 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+20:07:34.291 INFO  com.rng.KnimbusApplication - Started KnimbusApplication in 3.16 seconds (process running for 4.667)
+20:07:44.127 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:07:44.131 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:07:44.140 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+20:07:44.177 INFO  com.rng.service.impl.ServiceImpl - Fetching train details from https://api-v3.mbta.com/predictions/?filter[direction_id]=0&filter[stop]=place-pktrm&sort=departure_time&include=route&page[limit]=10
+20:07:46.327 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:09:29 IST 2023
+20:07:46.328 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:07:46.328 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:10:28 IST 2023
+20:07:46.328 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:07:46.329 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:11:29 IST 2023
+20:07:46.329 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:07:46.329 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:11:47 IST 2023
+20:07:46.330 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:07:46.330 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:15:28 IST 2023
+20:07:46.330 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:07:46.330 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:15:55 IST 2023
+20:07:46.330 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:07:46.331 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:17:26 IST 2023
+20:07:46.331 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:07:46.331 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:17:38 IST 2023
+20:07:46.331 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@3f68ec37, com.rng.model.Included@661b1357, com.rng.model.Included@30bb879a, com.rng.model.Included@8767c9c, com.rng.model.Included@700720f1]
+20:10:57.772 INFO  com.rng.KnimbusApplication - Starting KnimbusApplication using Java 19.0.1 with PID 1576 (E:\Knimbus\Knimbus\target\classes started by patil in E:\Knimbus\Knimbus)
+20:10:57.785 INFO  com.rng.KnimbusApplication - No active profile set, falling back to 1 default profile: "default"
+20:10:59.647 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+20:10:59.661 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+20:10:59.663 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:10:59.663 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+20:10:59.823 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:10:59.826 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1916 ms
+20:11:00.684 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+20:11:00.753 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+20:11:00.771 INFO  com.rng.KnimbusApplication - Started KnimbusApplication in 3.629 seconds (process running for 4.57)
+20:11:07.938 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:11:07.938 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:11:07.940 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+20:11:07.987 INFO  com.rng.service.impl.ServiceImpl - Fetching train details from https://api-v3.mbta.com/predictions/?filter[direction_id]=0&filter[stop]=place-pktrm&sort=departure_time&include=route&page[limit]=10
+20:11:10.019 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:11:45 IST 2023
+20:11:10.020 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.026 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:11:55 IST 2023
+20:11:10.026 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.027 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:12:59 IST 2023
+20:11:10.027 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.027 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:15:12 IST 2023
+20:11:10.027 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.027 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:17:00 IST 2023
+20:11:10.028 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.028 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:18:55 IST 2023
+20:11:10.029 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.029 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:22:57 IST 2023
+20:11:10.029 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.029 INFO  com.rng.service.impl.ServiceImpl - Departure time: Wed May 03 20:24:00 IST 2023
+20:11:10.030 INFO  com.rng.service.impl.ServiceImpl - Included: [com.rng.model.Included@7fa77fee, com.rng.model.Included@29b42c92, com.rng.model.Included@65be05, com.rng.model.Included@827318b, com.rng.model.Included@4cbb676e]
+20:11:10.032 INFO  com.rng.service.impl.ServiceImpl - Schedule details: Wed May 03 20:11:07 IST 2023
+
+-------Red Line-------
+Ashmont/Braintree: Departuring now(0 minutes)
+20:11:10.033 INFO  com.rng.service.impl.ServiceImpl - Schedule details: Wed May 03 20:11:07 IST 2023
+
+-------Red Line-------
+Ashmont/Braintree: Departuring now(0 minutes)
+Ashmont/Braintree: Departing in 11 minutes
+
+-------Green Line E-------
+Heath Street: Departuring now(0 minutes)
